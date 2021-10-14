@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import logo from '../../images/logo.png';
 import './Header.css';
+
+
 const Header = () => {
     const { user, logOut } = useAuth();
     return (
